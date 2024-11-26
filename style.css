@@ -1,0 +1,133 @@
+/* Reset básico para todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do documento */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #724502;; /* Cor de fundo suave */
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #003399; /* Azul escuro */
+    color: white;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: 500;
+    background-color: #0056b3;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover {
+    background-color: #0077ff;
+}
+
+/* Conteúdo principal da Página */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Grid de Produtos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta o número de colunas conforme o tamanho da tela */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+/* Card de Produto */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    height: 100%; /* Faz o card ocupar o tamanho disponível */
+}
+
+/* Imagem do Produto */
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Detalhes do Produto */
+.product-details {
+    padding: 15px;
+    flex: 1; /* Faz o conteúdo ocupar o restante do espaço */
+}
+
+/* Nome do Produto */
+.product-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+    height: 50px; /* Limita a altura do nome para não cortar */
+    overflow: hidden; /* Esconde qualquer excesso de texto */
+    text-overflow: ellipsis; /* Adiciona "..." caso o nome seja muito longo */
+}
+
+/* Preço do Produto */
+.product-price {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+/* Botão de Detalhes */
+.btn-secondary {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0077ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #003399;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

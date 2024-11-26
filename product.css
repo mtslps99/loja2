@@ -1,0 +1,151 @@
+/* Reset básico para todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do documento */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #724502;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #003399; /* Azul escuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 120px; /* Aumentando o tamanho da logo */
+    height: auto;
+}
+
+/* Conteúdo Principal */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Página de Produto Individual */
+.product-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Imagem do Produto (Notebook) */
+.product-image {
+    width: 35%; /* Ajustando para ficar menor */
+    height: 350px; /* Diminuindo o tamanho */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 0; /* Alinhando para a esquerda */
+}
+
+/* Informações do Produto */
+.product-info {
+    width: 60%; /* Ajustando a largura das informações */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 24px;
+    color: #0077ff;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.product-specs {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.product-specs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product-specs li {
+    margin-bottom: 10px;
+}
+
+/* Opções de Parcelamento */
+.payment-options {
+    margin-bottom: 20px;
+}
+
+.payment-options select,
+.payment-options input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.payment-options label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Botão de Comprar */
+.btn-buy {
+    display: inline-block;
+    background-color: #0077ff;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn-buy:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #003399;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}

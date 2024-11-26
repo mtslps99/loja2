@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Configurações de responsividade para adaptar o layout a diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Cadastro - Minha Loja</title>
+    <!-- Vinculação do arquivo CSS externo para estilizar o formulário -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Container principal que centraliza o conteúdo da página -->
+    <div class="login-container">
+        <!-- Caixa contendo o formulário de cadastro -->
+        <div class="login-box">
+            <!-- Título da página de cadastro -->
+            <h2>Crie sua Conta</h2>
+            <!-- Início do formulário de cadastro -->
+            <form action="index.html" method="POST"> <!-- Define que os dados do formulário serão enviados para "index.html" -->
+                <!-- Campo para entrada do nome -->
+                <div class="input-group">
+                    <label for="name">Nome</label> <!-- Rótulo do campo Nome -->
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required> <!-- Entrada para nome completo -->
+                </div>
+
+                <!-- Campo para entrada do e-mail -->
+                <div class="input-group">
+                    <label for="email">E-mail</label> <!-- Rótulo do campo E-mail -->
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <!-- Entrada para e-mail -->
+                </div>
+
+                <!-- Campo para entrada do CPF -->
+                <div class="input-group">
+                    <label for="cpf">CPF</label> <!-- Rótulo do campo CPF -->
+                    <input type="text" id="CPF" name="cpf" placeholder="Digite seu CPF" required> <!-- Entrada para CPF -->
+                </div>
+
+                <!-- Campo para criação de senha -->
+                <div class="input-group">
+                    <label for="password">Senha</label> <!-- Rótulo do campo Senha -->
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required> <!-- Entrada para senha -->
+                </div>
+
+                <!-- Campo para confirmação da senha -->
+                <div class="input-group">
+                    <label for="confirm-password">Confirmar Senha</label> <!-- Rótulo do campo Confirmar Senha -->
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required> <!-- Entrada para confirmação de senha -->
+                </div>
+
+                <!-- Botão para enviar o formulário -->
+                <button type="submit" class="btn-login">Cadastrar</button>
+            </form>
+
+            <!-- Opção para redirecionar o usuário para a página de login -->
+            <div class="options">
+                <a href="login.html">Já tem uma conta? Faça login</a> <!-- Link para página de login -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

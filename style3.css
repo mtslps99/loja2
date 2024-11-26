@@ -1,0 +1,147 @@
+/* Estilo geral para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte limpa e legível */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+    background: linear-gradient(to right, #f4f1e0, #d4e8f6); /* Gradiente de fundo em tons suaves */
+    color: #333; /* Cor padrão do texto */
+}
+
+/* Estilização do Cabeçalho */
+.header {
+    background-color: #0077ff; /* Define uma cor azul para o fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 15px 0; /* Espaçamento interno no topo e embaixo */
+}
+
+.header .container {
+    display: flex; /* Define layout flexível para organizar itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens nas extremidades */
+    max-width: 1200px; /* Define largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 0 20px; /* Adiciona espaçamento lateral */
+}
+
+.logo-container {
+    display: flex; /* Exibe logo e nome lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.logo {
+    width: 50px; /* Define a largura da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaçamento à direita da logo */
+}
+
+.store-name {
+    font-size: 24px; /* Tamanho da fonte do nome da loja */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.header-nav {
+    display: flex; /* Layout flexível para os links de navegação */
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+.nav-link {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado padrão */
+    font-size: 18px; /* Define tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    padding: 5px 10px; /* Adiciona espaçamento interno */
+    transition: background-color 0.3s; /* Suaviza a transição ao passar o mouse */
+}
+
+.nav-link:hover {
+    background-color: #4a2d16; /* Define um fundo marrom escuro ao passar o mouse */
+    border-radius: 5px; /* Arredonda as bordas do fundo */
+}
+
+.btn-login {
+    background-color: #1d70b7; /* Fundo azul */
+    color: #fff; /* Cor do texto branco */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 5px 15px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Suaviza a transição ao passar o mouse */
+}
+
+.btn-login:hover {
+    background-color: #15568a; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Conteúdo Principal */
+.container {
+    max-width: 1200px; /* Largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno geral */
+}
+
+main h2 {
+    font-size: 28px; /* Tamanho do título */
+    color: #333; /* Cor do texto do título */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+main p {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    color: #555; /* Cor do texto */
+}
+
+ul {
+    padding: 0; /* Remove espaçamento interno */
+    list-style-type: none; /* Remove marcadores da lista */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+ul li {
+    font-size: 16px; /* Tamanho do texto */
+    color: #444; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento inferior entre itens */
+}
+
+form {
+    margin-top: 20px; /* Espaçamento acima do formulário */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Espaçamento entre os grupos de entrada */
+}
+
+.input-group label {
+    display: block; /* Exibe o rótulo como um bloco separado */
+    font-size: 14px; /* Tamanho do texto do rótulo */
+    color: #333; /* Cor do rótulo */
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%; /* Largura total do elemento */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho do texto */
+}
+
+.input-group textarea {
+    resize: vertical; /* Permite redimensionar apenas na vertical */
+    height: 100px; /* Altura inicial */
+}
+
+/* Rodapé */
+.footer {
+    background-color: #654321; /* Cor de fundo marrom */
+    color: #fff; /* Cor do texto branco */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 15px 0; /* Espaçamento interno no topo e embaixo */
+}
+
+.footer-content p {
+    margin: 0; /* Remove margens padrão */
+    font-size: 14px; /* Tamanho do texto */
+}

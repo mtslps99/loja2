@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Declaração do conjunto de caracteres usado no documento -->
+    <meta charset="UTF-8">
+    <!-- Configuração para que o layout seja responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página, exibido na aba do navegador -->
+    <title>TechStore - Página Inicial</title>
+    <!-- Link para o arquivo CSS com os estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Importação de uma fonte personalizada do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho do site, onde está a identidade visual e o menu principal -->
+    <header class="header">
+        <div class="container header-content">
+            <!-- Div para exibir a logo e o nome da loja -->
+            <div class="logo-container">
+                <!-- Imagem da logo da loja -->
+                <img src="img/logo.png.png" alt="Logo da Loja" class="logo">
+                <!-- Nome da loja -->
+                <h1 class="store-name">TechStore</h1>
+            </div>
+            <!-- Navegação principal com links para outras páginas -->
+            <nav class="nav-menu">
+                <!-- Botões para login e registro -->
+                <a href="login.html" class="btn btn-login">Login</a>
+                <a href="register.html" class="btn btn-register">Registre-se</a>
+                <!-- Links para páginas de informações da loja -->
+                <a href="quem-somos.html" class="nav-link">Quem Somos</a>
+                <a href="contatos.html" class="nav-link">Contatos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção principal do site que exibe os produtos -->
+    <main class="container">
+        <!-- Grade de produtos: cada produto é exibido em um "card" -->
+        <div class="product-grid">
+            <!-- Estrutura de um cartão de produto -->
+            <div class="product-card">
+                <!-- Imagem do produto -->
+                <img src="img/noteebook.jpg" alt="Notebook Gamer" class="product-image">
+                <!-- Detalhes do produto -->
+                <div class="product-details">
+                    <h3 class="product-name">Notebook Gamer</h3>
+                    <p class="product-price">R$ 7.499,00</p>
+                    <!-- Botão para acessar mais detalhes do produto -->
+                    <a href="notebook.html" class="btn btn-secondary">Comprar</a>
+                </div>
+            </div>
+
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/celular.png" alt="Smartphone X Pro" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Samsung Galaxy S23</h3>
+                    <p class="product-price">R$ 4.999,00</p>
+                    <a href="smartphone.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/fone.png" alt="Headset Gamer" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Headset Gamer</h3>
+                    <p class="product-price">R$ 299,00</p>
+                    <a href="headset.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/relogio.png" alt="Smartwatch Série 5" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Smartwatch Série 5</h3>
+                    <p class="product-price">R$ 1.499,00</p>
+                    <a href="smartwatch.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/camera.png" alt="Câmera DSLR" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Câmera DSLR</h3>
+                    <p class="product-price">R$ 7.499,00</p>
+                    <a href="camera.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/tablet.png" alt="Tablet Ultra HD" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Tablet Ultra HD</h3>
+                    <p class="product-price">R$ 3.799,00</p>
+                    <a href="tablet.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/mouse.png" alt="Mouse Gamer" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Mouse Gamer</h3>
+                    <p class="product-price">R$ 299,99</p>
+                    <a href="mouse.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+            <!-- Repetição de cards para cada produto -->
+            <div class="product-card">
+                <img src="img/moni.png" alt="Monitor Ultra HD" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-name">Monitor Ultra HD</h3>
+                    <p class="product-price">R$ 3.799,00</p>
+                    <a href="monitor.html" class="btn btn-secondary">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <!-- Direitos autorais -->
+            <p>&copy; 2024 TechStore. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

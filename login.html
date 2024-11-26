@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres da página como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configurações para tornar a página responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página que será exibido na aba do navegador -->
+    <title>Login - TechStore</title>
+    <!-- Vincula um arquivo CSS externo para a estilização -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Container principal para centralizar o conteúdo da página -->
+    <div class="login-container">
+        <!-- Caixa de login que contém o formulário e opções -->
+        <div class="login-box">
+            <!-- Título de boas-vindas -->
+            <h2>Bem-vindo de volta!</h2>
+            <!-- Formulário de login -->
+            <form action="index.html" method="POST"> <!-- Define o destino do formulário como "index.html" -->
+                <!-- Campo de entrada para o e-mail -->
+                <div class="input-group">
+                    <label for="email">E-mail</label> <!-- Rótulo do campo de e-mail -->
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <!-- Entrada para o e-mail -->
+                </div>
+
+                <!-- Campo de entrada para a senha -->
+                <div class="input-group">
+                    <label for="password">Senha</label> <!-- Rótulo do campo de senha -->
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required> <!-- Entrada para a senha -->
+                </div>
+
+                <!-- Botão de envio para fazer login -->
+                <button type="submit" class="btn-login">Entrar</button>
+            </form>
+
+            <!-- Opções adicionais abaixo do formulário -->
+            <div class="options">
+                <a href="index.html">VOLTAR</a> <!-- Link para retornar à página inicial -->
+                <a href="register.html">Cadastrar-se</a> <!-- Link para ir à página de registro -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
